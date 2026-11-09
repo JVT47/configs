@@ -95,6 +95,6 @@
     },
     {
         "key": "ctrl+shift+c",
-        "command": "editor.action.clipboardCopyAction",
-    },
+        "command": "editor.action.clipboardCopyAction"
+    }
 ]

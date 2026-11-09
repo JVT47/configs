@@ -1,7 +1,8 @@
 {
-    "editor.suggestSelection": "first",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.colorTheme": "Dark Modern",
+    "keyboard.dispatch": "keyCode",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "editor.inlineSuggest.enabled": false,
     "vim.insertModeKeyBindings": [
         {
             "before": ["k", "j"],
@@ -19,12 +20,12 @@
         {
             "before": ["<leader>", "c"],
             "commands": ["editor.action.commentLine"]
-        },
+        }
     ],
     "vim.visualModeKeyBindings": [
         {
             "before": ["<leader>", "c"],
             "commands": ["editor.action.commentLine"]
-        },
+        }
     ]
 }
