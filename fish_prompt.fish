@@ -30,7 +30,7 @@ function fish_prompt
     echo -n [
     set_color normal
     set_color c07933
-    echo -n (pwd)
+    echo -n (prompt_pwd --dir-length=0)
     set_color -o blue
     echo -n ']'
      # Virtual Environment
